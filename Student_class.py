@@ -2,8 +2,8 @@ from Monster_class import *
 
 class Student(Monster):
 
-    def __init__(self, f_name, l_name, studentID):
-        super().__init__(f_name, l_name)
+    def __init__(self, f_name_student, l_name_student, studentID):
+        super().__init__(f_name_student, l_name_student)
         self.studentID = studentID
         self.student_skill = []
 
