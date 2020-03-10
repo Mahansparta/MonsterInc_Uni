@@ -1,0 +1,12 @@
+As a Receptionist of the University, I should be able to create a Student with only first and last name
+
+As a Receptionist of the University, I should be able to create a Teacher
+
+As a Receptionist of the University, I should be able to list all workshops
+
+As a Receptionist of the University, I should be able to create a workshop
+
+As a Receptionist of the University, I should be able add skills to a student object
+
+As a Receptionist of the University, I should be able to list all of the student's skills
+

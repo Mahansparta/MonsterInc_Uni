@@ -1,5 +1,8 @@
-class Teacher():
+from Monster_class import *
 
-    def __init__(self, teacherID):
+class Teacher(Monster):
+
+    def __init__(self, f_name, l_name, teacherID):
+        super().__init__(f_name, l_name)
         self.teacherID = teacherID
-        
+
