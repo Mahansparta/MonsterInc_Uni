@@ -14,6 +14,7 @@ list_of_teacher = []
 list_of_workshop = []
 list_of_attendees = []
 list_all_workshops = []
+
 # create a student_id_counter
 student_id = 0
 # create a teacher_id_counter
@@ -22,11 +23,12 @@ teacher_id = 0
 f_name_student = ' '
 l_name_student = ' '
 workshop_subject = ' '
+workshop_teacher = 'No workshop has been created yet, please use option 3 before using this option. '
 
 user_input = ' '
 # # With every iteration of the while loop:
 while (user_input != '5'):
-        user_input = input("Please press enter the number linked to the option you would like.\n 1) Create a student. \n 2) Create a teacher. \n 3) Create workshop \n 4) View list. \n 5) Quit programme. \n")
+        user_input = input("Please press enter the number linked to the option you would like.\n 1) Create a student. \n 2) Create a teacher. \n 3) Create workshop. \n 4) List all workshop. \n 5) Quit programme. \n")
 
         if user_input == '1':
             # increment the student_id_counter
@@ -79,8 +81,8 @@ while (user_input != '5'):
             print("Attendess:", workshop_list_of_attendees)
 
         if user_input == '4':
-            list_all_workshops = (workshop_subject + ', ' + workshop_teacher)
-            print(list_all_workshops)
+            #list_all_workshops = (workshop_subject + ', ' + workshop_teacher)
+            print(workshop_subject + ', ' + workshop_teacher)
 
         if user_input == '5':
             print("Programme ended")
